@@ -1,4 +1,4 @@
-# purescript-monoid
+# purescript-semigroups
 
 Utility semigroups.
 
