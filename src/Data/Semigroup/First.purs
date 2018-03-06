@@ -1,9 +1,10 @@
 module Data.Semigroup.First where
-  
+
 import Prelude
 
+import Control.Alt (class Alt)
 import Data.Newtype (class Newtype)
-  
+
 newtype First a = First a
 
 derive instance newtypeFirst :: Newtype (First a) _
@@ -16,3 +17,9 @@ instance showFirst :: Show a => Show (First a) where
 
 instance semigroupFirst :: Semigroup (First a) where
   append x _ = x
+
+instance functorFirst :: Functor First where
+  map f (First x) = First (f x)
+
+instance altFirst :: Alt First where
+  alt x _ = x
