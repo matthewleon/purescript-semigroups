@@ -7,12 +7,13 @@
     "bower_components",
     "output"
   ],
-  "repository": {                                                           
-    "type": "git",                                                          
-    "url": "https://github.com/matthewleon/purescript-semigroups.git"       
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewleon/purescript-semigroups.git"
   },
   "dependencies": {
     "purescript-prelude": "^3.1.1",
-    "purescript-newtype": "^2.0.0"
+    "purescript-newtype": "^2.0.0",
+    "purescript-control": "^3.3.1"
   }
 }
