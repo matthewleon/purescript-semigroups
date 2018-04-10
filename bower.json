@@ -17,7 +17,6 @@
     "purescript-control": "^3.3.1"
   },
   "devDependencies": {
-    "purescript-lazy": "^3.0.0",
     "purescript-foldable-traversable": "^3.7.1",
     "purescript-partial": "^1.2.1",
     "purescript-console": "^3.0.0",
